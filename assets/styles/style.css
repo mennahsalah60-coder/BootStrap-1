@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+.one .navnav {
+    height: 12svh;
+}
+
+.five div .svg img {
+    width: 40px;
+    height: 40px;
+}
+
+.three .all {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.three .all .card .card-header {
+    margin: -5px;
+}
+
+@media (max-width: 450px) {
+    .three .all {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .two div p {
+        width: auto !important;
+    }
+}
